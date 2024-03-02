@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos html 5</title>
+</head>
+<body>
+    <h1> imagens dinamicas</h1>
+    <p>tentar abrir as imagens em varios dispositivos diferengte</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-G.png" alt="imagens">
+    </picture>
+    <h1> reproduzindo audio</h1>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mepeg">
+    </audio>
+</body>
+</html>

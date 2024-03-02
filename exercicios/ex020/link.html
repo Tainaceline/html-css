@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando link</title>
+    <style>
+        a:visited{
+            color: aqua;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a:active{
+
+            color: blueviolet;
+        }
+
+        a::after{
+            content:'[link]' ;
+        }
+        a::before{
+            content:'[link]' ;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>personalizando link</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara">repertotio gihub</a></li>
+        <li><a href="https://www.cursoemvideo.com/"> curso em video</a></li>
+
+    </ul>
+
+</body>
+</html>
