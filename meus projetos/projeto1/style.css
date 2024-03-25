@@ -63,7 +63,7 @@ nav a:hover{
 
 main{
     padding: 20px;
-    max-width: 80%;
+    max-width: 800px;
     color: black;
     margin:  auto;
     background-attachment: fixed;
@@ -81,6 +81,7 @@ main p{
     text-indent: 2em;
     padding-top: 10px;
     font-size: 1.5em;
+    font-family: var(--font-padrao);
     
 }
 
