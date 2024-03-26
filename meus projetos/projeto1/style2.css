@@ -79,7 +79,7 @@ section#imag1{
     background-image: url(imagem/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: right center;
+    background-position: left center;
     color: white;
     
 }
@@ -88,7 +88,7 @@ section#imag2{
     background-image: url(imagem/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: right center;
+    background-position: left center;
     color: white;
     
 }
