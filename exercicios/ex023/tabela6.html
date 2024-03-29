@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        
+        }
+        td, th{
+            border: 1px solid rgba(0, 0, 0, 0.466);
+            padding: 10px;
+        
+        
+        }
+        caption{
+            font-weight: bolder;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+            font-size: 1.5em;
+        }
+        thead{
+            background-color: rgba(0, 0, 0, 0.801);
+            color: white;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color:rgba(0, 0, 0, 0.801);
+        }
+        
+        tbody >tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        tfoot{
+        
+            color: white;
+            background-color: rgba(0, 0, 0, 0.959);
+        
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Responsiva</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore beatae dignissimos expedita voluptates eveniet ullam nesciunt porro consequuntur quam nisi, deleniti accusantium ad magni iste omnis officia quo! Neque, delectus.</p>
+    <div id="container">
+        <table>
+            <caption> Tabelas responsivas</caption>
+            <theard>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Agos</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </theard>
+            <tbody>
+                <tr>
+                    <td>TV 40</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>9</td>
+                    <td>30</td>
+                    <td>12</td>
+                    <td>11</td>
+                    <td>22</td>
+                    <td>15</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>20</td>
+                </tr>
+                <tr> <td>play4</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>9</td>
+                    <td>30</td>
+                    <td>12</td>
+                    <td>11</td>
+                    <td>22</td>
+                    <td>15</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>20</td></tr>
+                    <tr>
+                        <td>xbox one</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>9</td>
+                        <td>30</td>
+                        <td>12</td>
+                        <td>11</td>
+                        <td>22</td>
+                        <td>15</td>
+                        <td>8</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>xbox serie x</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>9</td>
+                        <td>30</td>
+                        <td>12</td>
+                        <td>11</td>
+                        <td>22</td>
+                        <td>15</td>
+                        <td>8</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>play5</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>9</td>
+                        <td>30</td>
+                        <td>12</td>
+                        <td>11</td>
+                        <td>22</td>
+                        <td>15</td>
+                        <td>8</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>20</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
