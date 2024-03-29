@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            
+        }
+        td, th{
+            border: 1px solid rgba(0, 0, 0, 0.466);
+            padding: 10px;
+           
+           
+        }
+        caption{
+            font-weight: bolder;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+            font-size: 1.5em;
+        }
+        thead{
+            background-color: rgba(0, 0, 0, 0.801);
+            color: white;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color:rgba(0, 0, 0, 0.801); 
+        }
+        .num{
+            text-align: right;
+        }
+
+        tbody >tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        tfoot{
+            
+            color: white;
+            background-color: rgba(0, 0, 0, 0.959);
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Grande</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <td> São Paulo</td>
+                <td class="num">1.000.000</td>
+      
+            </tr>
+            <tr>
+                <td>Fortaleza</td>
+                <td class="num">2.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Bahia </td>
+                <td class="num"> 14.141.626</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.538. 718</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.44.380</td>
+            </tr>
+
+            
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de habitantes</th>
+            <td class="num">1000000000000</td>
+
+        </tfoot>
+        
+            
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit earum repellendus facilis! Aut enim nulla et error, voluptates nemo recusandae id facere nostrum ipsum itaque cupiditate iure, iste quaerat eaque?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui labore excepturi nemo iusto praesentium expedita? Quam, quibusdam voluptate repellat ipsa tempora praesentium laudantium delectus omnis amet reprehenderit temporibus corporis.lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id laboriosam ipsam non quas enim consectetur, ad delectus magnam, repudiandae quidem pariatur praesentium incidunt. Tenetur beatae molestias dolore ipsam eum! Suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem officiis quos nisi, in dolorem ex possimus fugit totam laborum soluta error ad nemo iusto corporis ab corrupti, voluptates eveniet nostrum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium tempore quo sapiente dignissimos ipsum odit nemo placeat voluptates molestias consectetur, omnis eos ducimus perferendis repudiandae, est accusantium sint maxime facilis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem voluptates maiores totam possimus rem quibusdam! Quia quod nulla recusandae voluptatibus tempora distinctio laborum, molestiae, rem tenetur nam libero rerum magni!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure asperiores commodi quaerat explicabo labore, doloremque laudantium fugiat neque! Eveniet laudantium nostrum vero molestiae debitis dicta excepturi assumenda mollitia, animi alias!</p>
+</body>
+</html>
