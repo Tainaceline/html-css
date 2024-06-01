@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 formulario</title>
+</head>
+<body>
+    <fieldset>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <p><label for="inome">Nome:</label>
+             <input type="text" name="nome" id="inome" minlength="8" maxlength="16" autocomplete="name" placeholder="Nome">
+        
+            </p>
+           
+            <p>
+                <label for="ifem">Feminino</label>
+                <input type="radio" name="sexo" id="ifem">
+            </p>
+
+            <p>
+                <label for="imas">Masculino</label>
+                <input type="radio" name="sexo" id="imas">
+            </p>
+
+            <p>
+                <label for="iselect"></label>
+                <select name="Estado" id="iselect">
+                    <optgroup label="Regiao Sudeste">
+
+                        <option value="RJ">Rio de Janeiro</option>
+                    </optgroup> 
+                    <optgroup label="Regiao Nordeste">
+                        <option value="CE">Ceara</option>
+                    </optgroup>
+                </select>
+               
+            </p>
+
+            <p>
+                <label for="iano">Ano:</label>
+                <input type="text" name="ano" id="iano"><span id="res"></span>
+            </p>
+
+            <p>
+                <label for="ianoatual">Ano atual:</label>
+                <input type="text" name="ano" id="ianoatual">
+            </p>
+            <input type="button" value="enviar" onclick="enviar()">
+    </fieldset>
+    </form>
+   <script>
+    function enviar(){
+        atual= Number(document.getElementById("ianoatual").value)
+        var r= document.getElementById('res')
+        var ano=Number(document.getElementById("iano").value)
+        s= ano-atual
+        r.innerHTML=s
+    }
+        
+   
+   </script>
+</body>
+</html>
