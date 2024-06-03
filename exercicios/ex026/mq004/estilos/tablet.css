@@ -1,0 +1,23 @@
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-image: url(../imagem/back-tablet.jpg);
+       
+    }
+        #phone{
+            display: none;
+        }
+        #tablet{
+            display: block;
+        }
+        #pc{
+            display: none;
+        }
+        
+        #imp{
+            display: none;
+        }
+        
+        #tv{
+            display: none;
+        }
+    }
