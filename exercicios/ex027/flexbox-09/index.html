@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        .pai{
+            background-color: black;
+            display: flex;
+            flex-flow: row nowrap;
+            
+
+        }
+        .filho{
+            background-color: aqua;
+            padding: 20px;
+            flex-basis: 256px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        
+            
+            border: 1px solid black;
+        }
+       
+      
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho"  id="i1">a</div>
+        <div class="filho" id="i2">b</div>
+        <div class="filho" id="i3">c</div>
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        .pai{
+            background-color: black;
+            display: flex;
+            flex-flow: row nowrap;
+            
+            
+
+        }
+        .filho{
+            background-color: aqua;
+            padding: 10px;
+            flex-basis: 100px;
+            
+    
+        
+            
+            border: 1px solid black;
+        }
+        #i1{
+            flex-grow: 0;  
+            flex-shrink: 1;    
+        }
+        #i2{
+         flex-grow: 2;
+         flex-shrink: 0;    
+        }
+        #i3{
+         flex-grow: 1;
+         flex-shrink: 1;    
+}
+
+       
+      
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho"  id="i1">a</div>
+        <div class="filho" id="i2">b</div>
+        <div class="filho" id="i3">c</div>
+       
+    </div>
+</body>
+</html>
